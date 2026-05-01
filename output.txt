@@ -1,0 +1,4 @@
+--- Starting Full-Stack Verification ---
+Testing Health Check...
+
+❌ Verification Failed (Message): 

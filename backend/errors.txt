@@ -1,0 +1,8 @@
+src/controllers/user.controller.ts(18,32): error TS2339: Property 'name' does not exist on type 'IKodUser'.
+src/controllers/user.controller.ts(20,41): error TS2339: Property 'accountNumber' does not exist on type 'IKodUser'.
+src/schemas/auth.schema.ts(9,13): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(values: readonly ["Customer"], params?: string | { error?: string | $ZodErrorMap<$ZodIssueInvalidValue<unknown>> | undefined; message?: string | undefined; } | undefined): ZodEnum<...>', gave the following error.
+    Object literal may only specify known properties, and 'errorMap' does not exist in type '{ error?: string | $ZodErrorMap<$ZodIssueInvalidValue<unknown>> | undefined; message?: string | undefined; }'.
+  Overload 2 of 2, '(entries: Readonly<Record<string, EnumValue>>, params?: string | { error?: string | $ZodErrorMap<$ZodIssueInvalidValue<unknown>> | undefined; message?: string | undefined; } | undefined): ZodEnum<...>', gave the following error.
+    Argument of type 'string[]' is not assignable to parameter of type 'Readonly<Record<string, EnumValue>>'.
+      Index signature for type 'string' is missing in type 'string[]'.
