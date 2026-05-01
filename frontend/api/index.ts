@@ -1,2 +1,2 @@
-import handler from '../backend/api/index';
+import handler from '../backend/api/index.js';
 export default handler;
